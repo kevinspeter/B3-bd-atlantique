@@ -109,7 +109,7 @@ body{
 
   .contact .content .row .card{
     background: #fff;
-    width: 200px;
+    width: calc(150 * var(--res));
     margin: 20px;
     padding: 25px;
     display: flex;
@@ -122,7 +122,7 @@ body{
 
   .contact .content .row .card .contact-icon{
     color: #08234c;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     transition: transform 0.5s ease;
   }
@@ -137,12 +137,13 @@ body{
 
   .contact .content .row .card .info h3{
     color: #111;
-    font-size: 1.2em;
-    font-weight: 600;
+    font-size: 0.8em;
+    font-weight: 500;
     margin: 10px;
   }
 
   .contact .content .row .card .info span{
     color: #666;
+    font-size: 0.7em;
     font-weight: 500;
   }
